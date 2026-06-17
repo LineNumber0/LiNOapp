@@ -23,9 +23,9 @@ In this example, I used some great libraries and Android API :
 Open with Android Studio Bumblebee and sync Gradle.
 
 ## Screenshots
-![Screenshot](Screenshots/main.jpg)
-![Screenshot](Screenshots/article.jpg)
-![Screenshot](Screenshots/images.jpg)
+| Main Activity | Article | Article image |
+|------|---------|---------|
+| ![Screenshot](Screenshots/main.jpg) | ![Screenshot](Screenshots/article.jpg) | ![Screenshot](Screenshots/images.jpg) |
 
 ## Developer
 Developed by Benlamine Abdelmourhit (abdelmourhit01@gmail.com)
