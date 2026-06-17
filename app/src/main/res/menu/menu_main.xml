@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="ma.oprojet.ln0wp.MainActivity">
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/about_title"
+        app:showAsAction="never"
+        android:orderInCategory="200"/>
+
+
+</menu>

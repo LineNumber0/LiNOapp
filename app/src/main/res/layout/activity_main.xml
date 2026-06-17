@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ma.oprojet.ln0wp.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mtoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:id="@+id/progressBar3"
+        android:elevation="100dp"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/loadCirc"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_fade"
+            android:scrollbarSize="4dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </FrameLayout>
+
+    <!-- LinkedIn Style Full Screen No Internet Layout -->
+    <LinearLayout
+        android:id="@+id/no_internet_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_no_internet_foreground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nointernet"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="@string/checkconn"
+            android:textColor="#757575"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:minWidth="120dp"
+            android:text="@string/retry"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-medium"
+            android:elevation="32dp"
+            android:shadowRadius="16"/>
+
+    </LinearLayout>
+
+
+<!-- Server error full screen layout -->
+    <LinearLayout
+        android:id="@+id/server_error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/server_error_foreground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/error"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/errorMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:textColor="#757575"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

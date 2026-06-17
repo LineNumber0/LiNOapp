@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_label">LiNOapp articles d\'un Blog </string>
+    <string name="action_settings">Paramètres</string>
+    <string name="appbar_scrolling_view_behavior" translatable="true">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="readMoreBtn">Lire l\'article</string>
+    <string name="readMore">Lisez l\'article</string>
+    <string name="postsNumber">Nombre d\'articles : </string>
+    <string name="enjoyRead">Bonne lecture !</string>
+    <string name="author">Auteur :</string>
+    <string name="postLink">au lien suivant :</string>
+    <string name="NewPost">Un nouvel article a été publié.</string>
+    <string name="PostImg">Photo à la une de l\'article.</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="appearance_header">Apparence</string>
+    <string name="sync_header">Synchronisation</string>
+    <string name="light">Clair</string>
+    <string name="dark">Sombre</string>
+    <string name="sysdefault">Par défaut du système</string>
+    <string name="seltheme">Choisir le thème de l\'application :</string>
+    <string name="AutoOption">SVP fermer et rouvrir l\'application pour appliquer cette option !</string>
+    <string name="retry">Réessayer</string>
+    <string name="checkconn">SVP vérifier votre connexion et réessayer.</string>
+    <string name="noconn">Toujours aucune connexion, SVP réessayer !</string>
+    <string name="nointernet">Pas de connexion Internet !</string>
+    <string name="ChName">Publications LineNumberO</string>
+    <string name="ChDesc">Notifications des nouvelles publications LineNumberO.</string>
+    <string name="about_title">À propos</string>
+    <string name="version_text">Version 1.0</string>
+    <string name="version_format">Version %s</string>
+    <string name="about_description_title">À propos de cette application</string>
+    <string name="about_description">LiNOapp : L\'application du site LineNumberO permet de consulter les articles rédigés en Anglais de mon blog dans une interface native d\'Android. \nVisitez la version navigateur Web sur votre PC :</string>
+    <string name="developer_title">Développeur</string>
+    <string name="error">Erreur !</string>
+    <string name="wrtby"> écrit par </string>
+</resources>

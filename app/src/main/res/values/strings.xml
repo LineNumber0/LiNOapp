@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_label">LiNOapp Blog posts</string>
+    <string name="action_settings">Settings</string>
+    <string name="appbar_scrolling_view_behavior" translatable="true">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="readMoreBtn">Read the article</string>
+    <string name="readMore">Read the article</string>
+    <string name="postsNumber">Number of articles : </string>
+    <string name="enjoyRead">Enjoy your reading !</string>
+    <string name="author">Author :</string>
+    <string name="postLink">at the following link :</string>
+    <string name="NewPost">A new article has been posted.</string>
+    <string name="PostImg">Photo featured at the top of the article.</string>
+    <string name="app_name" translatable="false">LiNOapp</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="appearance_header">Appearance</string>
+    <string name="sync_header">Sync</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="sysdefault">Follow system</string>
+    <string name="seltheme">Choose app theme :</string>
+    <string name="AutoOption">Please, close and open the app to apply this option !</string>
+    <string name="retry">Retry</string>
+    <string name="checkconn">Please check your connection and try again.</string>
+    <string name="noconn">Still no connection, please try again !</string>
+    <string name="nointernet">No Internet Connection !</string>
+    <string name="ChName">LineNumberO Posts</string>
+    <string name="ChDesc">Notifications for new LineNumberO posts.</string>
+    <string name="about_title">About</string>
+    <string name="version_text">Version 1.0</string> <!-- optional if you set programmatically -->
+    <string name="version_format">Version %s</string>
+    <string name="about_description_title">About this app</string>
+    <string name="about_description">LiNOapp : LineNumberO website application displays articles of my Blog posts in a native Android experience. \nVisit the Web Browser version in your PC :</string>
+    <string name="developer_title">Developer</string>
+    <string name="developer_name" translatable="false">Benlamine Abdelmourhit</string>
+    <string name="developer_email" translatable="false">abdelmourhit01@gmail.com</string>
+    <string name="developer_website" translatable="false">%s</string>
+    <string name="copyright_notice" translatable="false">© 2026 Benlamine Abdelmourhit.</string>
+    <string name="error">Error !</string>
+    <string name="wrtby"> written by </string>
+</resources>

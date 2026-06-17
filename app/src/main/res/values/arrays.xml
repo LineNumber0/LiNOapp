@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme entries for ListView -->
+    <string-array name="theme_entries">
+        <item>@string/light</item>
+        <item>@string/dark</item>
+        <item>@string/sysdefault</item>
+    </string-array>
+    
+    <!-- Theme values corresponding to entries -->
+    <string-array name="theme_values">
+        <item>1</item>    <!-- THEME_LIGHT -->
+        <item>2</item>    <!-- THEME_DARK -->
+        <item>0</item>    <!-- THEME_SYSTEM -->
+    </string-array>
+</resources>
