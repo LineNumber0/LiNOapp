@@ -14,18 +14,23 @@ In this example, I used some great libraries and Android API :
 * CircleImageView : Popular circle image library 
 
 ## Features
+- Native Android interface
 - Theme chooser
 - Article sharing
-- Load and network handling  
-- Native Android interface
+- Load and network handling
+- Notifications for new posts (works only on API 24/25 => Android 7)
 
 ## Build
 Open with Android Studio Bumblebee and sync Gradle.
 
 ## Screenshots
-| Main Activity | Article | Article image |
-|------|---------|---------|
-| ![Screenshot](Screenshots/main.jpg) | ![Screenshot](Screenshots/article.jpg) | ![Screenshot](Screenshots/images.jpg) |
+| Main Activity | Article |
+|----------|----------|
+| ![Screenshot](Screenshots/main.jpg) | ![Screenshot](Screenshots/article.jpg) |
+
+| Article image | Notification |
+|----------|----------|
+| ![Screenshot](Screenshots/images.jpg) | ![Screenshot](Screenshots/notif.png) |
 
 ## Developer
 Developed by Benlamine Abdelmourhit (abdelmourhit01@gmail.com)
