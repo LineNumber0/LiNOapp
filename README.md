@@ -6,7 +6,7 @@ Based on this project : https://github.com/Mahjouba91/android-wp-restapi-example
 The aim is to display all posts of my blog on the Android app, then to display Single Post template like (a child activity).
 
 ## Libraries
-In this example, I used some great libraries and Android API :
+In this app, I used some great libraries and Android API :
 * Retrofit : A JAVA library to make REST API calls easily
 * Picasso : An Android library to set an ImageView with an URL
 * Material Design support for Cards
@@ -29,7 +29,7 @@ Open with Android Studio Bumblebee and sync Gradle.
 | ![Screenshot](Screenshots/main.jpg) | ![Screenshot](Screenshots/article.jpg) |
 
 | Article image | Notification |
-|----------|----------|
+|-----------|----------|
 | ![Screenshot](Screenshots/images.jpg) | ![Screenshot](Screenshots/notif.png) |
 
 ## Developer
