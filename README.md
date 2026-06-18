@@ -29,7 +29,7 @@ Open with Android Studio Bumblebee and sync Gradle.
 | ![Screenshot](Screenshots/main.jpg) | ![Screenshot](Screenshots/article.jpg) |
 
 | Article image | Notification |
-|-----------|----------|
+|---------------|----------|
 | ![Screenshot](Screenshots/images.jpg) | ![Screenshot](Screenshots/notif.png) |
 
 ## Developer
